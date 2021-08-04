@@ -25,5 +25,5 @@
 
 To create a pull request, click on compare and pull requests. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
 
- Click on `Create Pull Request`
+ Click on `Create Pull Request`.
  
