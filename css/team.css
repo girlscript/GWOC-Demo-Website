@@ -1,0 +1,136 @@
+html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  html::-webkit-scrollbar-track {
+    background: #606060ff;
+  }
+  html::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 5rem;
+  }
+body{
+    background-color: #ff7a00; 
+    padding:0px 10px 10px 10px; 
+    box-sizing: border-box;
+}
+.nav{
+    height:130px;
+    width:100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0,0.5);
+    width:inherit;
+    position:fixed;
+    background-color:white;
+    border-radius:20px 20px 0px 0px;
+    z-index:1;
+}
+.logo{
+    width:35%;
+}
+.logo>img{
+max-width:90%;
+max-height:90%;
+}
+.nav-items ul a li{
+    display: inline;
+    list-style-type:none;
+}
+.nav-items ul a{
+    text-decoration: none;
+    padding:1rem;
+    margin:0.5rem;
+    font-size:1.2rem;
+    color: #2C599D;
+    font-weight: bold;
+}
+.text-center{
+    padding-top:150px;
+}
+.fa-bars{
+    display:none;
+}
+
+@media screen and (max-width:990px){
+    .nav{
+        height:100px;
+    }
+    .nav-items{
+        display:none;
+    }
+    .nav-items{
+        width:100%;
+        background-color: white;
+        position: relative;
+        top:1.45rem;
+        border:1px solid black;
+        border-top:none;
+    }
+    .nav-items ul{
+        padding:0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:wrap;
+    }
+    .nav-items ul a{
+        display:block;
+        text-align: center;
+        width:100%;
+    }
+    .nav-items ul  a:hover{
+        color:#ff7a00;
+    }
+    
+    .fa-bars{
+        display:block;
+        margin-right:20px;
+        padding:0.5rem;
+    }
+}
+@media screen and (max-width:575px){
+    .nav{
+       width:96.5%;
+    }
+    .nav-items{
+        top:1.25rem;
+    }
+}
+@media screen and (max-width:800px){
+    .nav{
+        width:96%;
+    }
+    .logo{
+        width:40%;
+    }
+}
+@media screen and (max-width:411px){
+    .nav{
+        width:95%;
+    }
+    .logo>img{
+        max-width:150%;
+        max-height:150%;
+    }
+}
+@media screen and (max-width:400px){
+    .nav{
+        width:94.5%;
+    }
+    .logo{
+        width:50%;
+    }
+    .logo>img{
+        max-width:130%;
+        max-height:130%;
+    }
+    .nav{
+        height:100px;
+    }
+    .nav-items{
+        top:1.55rem;
+    }
+}
