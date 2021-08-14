@@ -25,7 +25,7 @@
                         <a href="../index.html">
                             <li>Home</li>
                         </a>
-                        <a href="../index.html">
+                        <a href="about.html">
                             <li>About</li>
                         </a>
                         <a href="../index.html">
@@ -139,25 +139,7 @@
         </div>
     </section>
 
-    <script>
-        let toggler=document.getElementById("navbar-toggle");
-        let navbar=document.getElementsByClassName("nav-items");
-        let count=0;
-        toggler.addEventListener("click",function(){
-            if(count%2===0)
-            {
-            navbar[0].style.display="block";
-            }
-            else{
-            navbar[0].style.display="none";
-            }
-            count++;
-        });
-        navbar[0].addEventListener("click",function(){
-            count++;
-            navbar[0].style.display="none";
-        });
-    </script>
+    <script src="../js/navbar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
