@@ -65,10 +65,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 84%;
+  width: 85%;
   position: fixed;
   top: 0rem;
-  left: 8%;
+  left: 7.4%;
   background-color: white;
   padding: 1rem 8%;
   border-radius: 20px 20px 0px 0px;
