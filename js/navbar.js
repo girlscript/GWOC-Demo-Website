@@ -1,18 +1,9 @@
 
         let toggler=document.getElementById("navbar-toggle");
         let navbar=document.getElementsByClassName("nav-items");
+        let togglebutton=document.getElementsByClassName("fa-bars");
         let count=0;
         toggler.addEventListener("click",function(){
-            if(count%2===0)
-            {
-            navbar[0].style.display="block";
-            }
-            else{
-            navbar[0].style.display="none";
-            }
-            count++;
-        });
-        navbar[0].addEventListener("click",function(){
-            count++;
-            navbar[0].style.display="none";
+            togglebutton[0].classList.toggle("fa-times");
+            navbar[0].classList.toggle("active");
         });
