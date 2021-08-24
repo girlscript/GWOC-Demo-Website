@@ -80,7 +80,6 @@ header {
 @media screen and (max-width: 412px) {
   #header {
     top: 0rem;
-    width: 94.5%;
   }
   #about-gs,
   #about-gwoc {
@@ -159,6 +158,25 @@ header .navbar a:hover {
 
 .footer {
   background-color: rgba(232, 232, 232, 0.3);
+}
+.footer .email{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.email p{
+  font-size:1.5rem;
+  margin:0px;
+}
+.email a{
+  color:#ff7a00;
+  margin-right:10px;
+}
+.footer ul {
+  padding-top:20px;
+}
+.footer ul {
+  border-top:0.5px solid #2C599D;
 }
 
 /* h1::before {
@@ -382,7 +400,7 @@ li[class="sm1"] a:hover {
     font-size: 50%;
   }
   header {
-    width: 74.2%;
+    width: 94.2%;
     /* left:15.8rem; */
   }
 }
@@ -625,8 +643,8 @@ li[class="sm1"] a:hover {
     font-size: 2.8rem;
   }
   header {
-    width: 94%;
-    left: 1.3rem;
+    width: 93.3%;
+    left: 1.5rem;
     top: 0px;
   }
 }
